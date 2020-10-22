@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@900&family=Source+Sans+Pro:wght@700&display=swap');
+body {
+  color: #ffffff;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 0 15%;
+  margin: 0 auto;
+
+}
+/* header*/
+.header {
+  background-color: #87509c;
+}
+.head {
+  height: 500px;
+}
+.top_head {
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: relative;
+  top: 12px;
+}
+.top_head li {
+  list-style: none;
+  display: inline-block;
+}
+.top_head a {
+  color: inherit;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.logo_name {
+  font-size: 16px;
+  font-family: 'Sansita Swashed', cursive;
+  font-family: 'Source Sans Pro', sans-serif;
+  display: block;
+  float: right;
+  
+}
+
+.top_head a:hover {
+  background-color: rgb(66, 31, 97);
+  color: inherit;
+  border-radius: 8%;
+}
+
+.bottom_head, h1 {
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: center;
+  margin-top: 7rem;
+}
+.button_head {
+  background-color: #eb7d4b;
+  color: white;
+  padding: 2%;
+  display: flex;
+  margin: 64px auto;
+}
+
+/* Services block*/
+
+.services {
+  background-color: #17c2a4;
+}
+
+.inservices {
+  height: 545px;
+}
+
+.top_services {
+  color: white;
+  text-align: center;
+  padding: 4em 2em;
+}
+span {
+  font-size: 30px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.bottom_services {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+/* .flag {
+  height: 7rem;
+}
+
+.edit {
+  height: 7rem;
+}
+
+.settings {
+  height: 7rem;
+}
+
+.rocket {
+  height: 7rem;
+} */
+
+.bottom_services img {
+  height: 7rem;
+}
